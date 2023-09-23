@@ -1,12 +1,7 @@
-#!name = 用药助手
-#!author = ios151
-#!homepage = https://github.com/Yu9191/Script
-#!url= https://raw.githubusercontent.com/Yu9191/Script/main/yyzs.sgmodule
 
 [Script]
-用药助手 = type=http-response,pattern=^https://newdrugs.dxy.cn,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/stargazer974/qx1/main/yyzs2.js?token=GHSAT0AAAAAACHZCNFXUB6EHYKMMGWMWXTGZIMIO6A
-
-用药助手2 = type=http-request,pattern=^https://newdrugs.dxy.cn,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/stargazer974/qx1/main/yyzsck.js?token=GHSAT0AAAAAACHZCNFXCX5N3BAFNMI3JV5WZIMIPUA
+用药助手 = type=http-response,pattern=^https://newdrugs.dxy.cn,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/stargazer974/qx/main/yyzs2.js
+用药助手2 = type=http-request,pattern=^https://newdrugs.dxy.cn,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/stargazer974/qx/main/yyzsck.js
 
 
 [MITM]
